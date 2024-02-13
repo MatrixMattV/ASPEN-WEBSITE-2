@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-francesco-ungaro-20112335.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+} 
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 14px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: darkgreen;
+    color: aliceblue;
+    border: 3px solid black;
+    transition: .3s;
+}
+
+header button:hover {
+    background: aliceblue;
+    color: darkgreen;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: rgb(255, 43, 43);
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+    font-weight: 600;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 22px;
+    border-radius: 8px;
+    background: brown;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: .5px;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: aliceblue;
+    color: brown;
+}
